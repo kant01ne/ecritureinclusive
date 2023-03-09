@@ -4,7 +4,16 @@ export default function Footer() {
   return (
     <footer className="text-center h-16 sm:h-20 w-full sm:pt-2 pt-4 border-t mt-5 flex sm:flex-row flex-col justify-between items-center px-3 space-y-3 sm:mb-0 mb-3">
       <div>
-        Powered by{" "}
+        Avec l'aide de{" "}
+        <a
+          href="https://dust.tt"
+          target="_blank"
+          rel="noreferrer"
+          className="font-bold hover:underline transition underline-offset-2"
+        >
+          Dust{" "}
+        </a>
+        , 
         <a
           href="https://openai.com/blog/chatgpt"
           target="_blank"
@@ -13,7 +22,7 @@ export default function Footer() {
         >
           ChatGPT{" "}
         </a>
-        and{" "}
+        et{" "}
         <a
           href="https://vercel.com/"
           target="_blank"
@@ -25,7 +34,7 @@ export default function Footer() {
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         <Link
-          href="https://twitter.com/nutlope"
+          href="https://twitter.com/kevant01ne"
           className="group"
           aria-label="TaxPal on Twitter"
         >
@@ -37,7 +46,7 @@ export default function Footer() {
           </svg>
         </Link>
         <Link
-          href="https://github.com/Nutlope/twitterbio"
+          href="https://github.com/kant01ne/ecritureinclusive"
           className="group"
           aria-label="TaxPal on GitHub"
         >
